@@ -1,0 +1,31 @@
+<div id="products-main" class="container-fluid p-0">
+    <app-header></app-header>
+    <div class="mx-5 mt-5 d-flex justify-content-end">
+        <div class="mx-2">
+            <button id="list-btn" class="border-0 p-2 view-btn" (click)="showList()"><i class="fa fa-bars"
+                    aria-hidden="true"></i></button>
+            <button id="grid-btn" class="border-0 p-2 view-btn" (click)="showGrid()"><i class="fa fa-th-large"
+                    aria-hidden="true"></i></button>
+        </div>
+        <div>
+            <select name="slect" class="form-select" id="price-dropdown" (change)="filterProducts($event)">
+                <option value="0">All Products</option>
+                <option value="1">Below 25</option>
+                <option value="2">25-50</option>
+                <option value="3">50-100</option>
+                <option value="4">Above 100</option>
+            </select>
+        </div>
+    </div>
+    <div class="row d-flex justify-content-start p-4">
+        <ng-container *ngIf="productsData && productsData.length > 0 else noDocument">
+            <app-product-tile class="p-0"
+                [ngClass]="{'w-25' : productsToBeDisplayed == 4, 'w-50' : productsToBeDisplayed == 2}"
+                *ngFor='let product of productsData' [product]='product'>
+            </app-product-tile>
+        </ng-container>
+        <ng-template #noDocument>
+            <p class="text-center">No Product available</p>
+        </ng-template>
+    </div>
+</div>

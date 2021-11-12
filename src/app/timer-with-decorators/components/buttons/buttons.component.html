@@ -1,0 +1,11 @@
+<div id="button-section" class="p-4">
+    <label class="fw-bold">Enter Timer Limit</label><input type="number" class="mx-2" name="counterLimit" id="counterLimit" [(ngModel)]="counterLimit"
+    (input)="onLimitChange()">
+    <div class="d-flex pt-2 justify-content-center">
+        <button id="start-button" class="btn btn-sm btn-primary m-2" (click)="startPauseCounter()">Start/Pause</button>
+        <button id="reset-button" class="btn btn-sm btn-primary m-2" (click)="resetCounter()">Reset</button>
+    </div>
+    <div class="msgs" *ngFor="let msg of msgs | slice : -5">
+        {{msg}}
+    </div>
+</div>

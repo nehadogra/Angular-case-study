@@ -1,0 +1,18 @@
+.document {
+    border-radius: 10px;
+    height: 200px;
+    background-color: #ffffff;
+}
+
+.prd-img{
+    height:100px;
+    text-align: center;
+}
+
+.name {
+    color: #434764;
+}
+
+.price {
+    color:#B13F45;
+}

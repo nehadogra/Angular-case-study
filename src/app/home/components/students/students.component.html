@@ -1,0 +1,18 @@
+<div id="students-main-section" class="container-fluid p-0">
+  <app-header></app-header>
+  <div class="m-4">
+    <h4 class="fw-bold mb-2">Students</h4>
+    <table class="table table-hover w-75">
+      <thead>
+        <tr>
+          <th *ngFor="let header of getHeaders()"><span class="text-capitalize" (click)="onSort(header)">{{header}}</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let student of studentsData">
+          <td *ngFor="let key of getHeaders()">{{student[key]}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

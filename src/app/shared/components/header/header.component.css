@@ -1,0 +1,10 @@
+header {
+  padding: 5px;
+  background-color: #000000;
+}
+
+.home-btn {
+  background-color: #000000;
+  color:#ffffff;
+  border: none;
+}

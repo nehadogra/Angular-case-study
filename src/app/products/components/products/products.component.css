@@ -1,0 +1,13 @@
+.view-btn {
+    background-color: #f5f5f5;
+}
+
+.form-select {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 720px) {
+    /* .document-tile {
+        width: 100%;
+    } */
+}

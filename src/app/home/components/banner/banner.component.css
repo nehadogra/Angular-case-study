@@ -1,0 +1,19 @@
+.container-fluid {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.rotating-text {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.content{
+  height: 300px;
+  padding: 190px;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 20px;
+}
+

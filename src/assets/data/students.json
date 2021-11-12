@@ -1,0 +1,182 @@
+[
+    {
+        "id": "1",
+        "name": "Senpai",
+        "Class": "3",
+        "section": "A",
+        "subject1": "65",
+        "subject2": "76",
+        "subject3": "54"
+    },
+    {
+        "id": "2",
+        "name": "Yui Rio",
+        "Class": "3",
+        "section": "B",
+        "subject1": "87",
+        "subject2": "77",
+        "subject3": "65"
+    },
+    {
+        "id": "3",
+        "name": "Yuna Hina",
+        "Class": "3",
+        "section": "A",
+        "subject1": "98",
+        "subject2": "76",
+        "subject3": "87"
+    },
+    {
+        "id": "4",
+        "name": "Koharu Hinata",
+        "Class": "3",
+        "section": "C",
+        "subject1": "76",
+        "subject2": "87",
+        "subject3": "88"
+    },
+    {
+        "id": "5",
+        "name": "Mei Mio",
+        "Class": "3",
+        "section": "B",
+        "subject1": "88",
+        "subject2": "87",
+        "subject3": "76"
+    },
+    {
+        "id": "6",
+        "name": "Saki Miyu",
+        "Class": "3",
+        "section": "A",
+        "subject1": "88",
+        "subject2": "76",
+        "subject3": "69"
+    },
+    {
+        "id": "7",
+        "name": "Kokona Haruka",
+        "Class": "3",
+        "section": "B",
+        "subject1": "78",
+        "subject2": "65",
+        "subject3": "78"
+    },
+    {
+        "id": "8",
+        "name": "Haruto Yuto",
+        "Class": "3",
+        "section": "C",
+        "subject1": "76",
+        "subject2": "88",
+        "subject3": "73"
+    },
+    {
+        "id": "9",
+        "name": "Sota Yuki",
+        "Class": "3",
+        "section": "C",
+        "subject1": "74",
+        "subject2": "81",
+        "subject3": "82"
+    },
+    {
+        "id": "10",
+        "name": "Hayato Haruki",
+        "Class": "3",
+        "section": "A",
+        "subject1": "61",
+        "subject2": "90",
+        "subject3": "73"
+    },
+    {
+        "id": "11",
+        "name": "Ryusei Koki",
+        "Class": "3",
+        "section": "C",
+        "subject1": "69",
+        "subject2": "73",
+        "subject3": "78"
+    },
+    {
+        "id": "12",
+        "name": "Sora Sosuke",
+        "Class": "3",
+        "section": "A",
+        "subject1": "79",
+        "subject2": "80",
+        "subject3": "83"
+    },
+    {
+        "id": "13",
+        "name": "Riku Soma",
+        "Class": "3",
+        "section": "C",
+        "subject1": "91",
+        "subject2": "87",
+        "subject3": "82"
+    },
+    {
+        "id": "14",
+        "name": "Pippi Osu",
+        "Class": "3",
+        "section": "B",
+        "subject1": "69",
+        "subject2": "78",
+        "subject3": "77"
+    },
+    {
+        "id": "15",
+        "name": "Ryuto Ippongo",
+        "Class": "3",
+        "section": "B",
+        "subject1": "87",
+        "subject2": "81",
+        "subject3": "79"
+    },
+    {
+        "id": "16",
+        "name": "Midori Gurin",
+        "Class": "3",
+        "section": "A",
+        "subject1": "78",
+        "subject2": "67",
+        "subject3": "73"
+    },
+    {
+        "id": "17",
+        "name": "Sakyu Basu",
+        "Class": "3",
+        "section": "B",
+        "subject1": "80",
+        "subject2": "73",
+        "subject3": "71"
+    },
+    {
+        "id": "18",
+        "name": "Inkyu Basu",
+        "Class": "3",
+        "section": "B",
+        "subject1": "73",
+        "subject2": "84",
+        "subject3": "75"
+    },
+    {
+        "id": "19",
+        "name": "Kuu Dere",
+        "Class": "3",
+        "section": "A",
+        "subject1": "76",
+        "subject2": "81",
+        "subject3": "79"
+    },
+    {
+        "id": "20",
+        "name": "Mai Waifu",
+        "Class": "3",
+        "section": "B",
+        "subject1": "71",
+        "subject2": "74",
+        "subject3": "82"
+    }
+]

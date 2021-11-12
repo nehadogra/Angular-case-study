@@ -1,0 +1,10 @@
+<div id="logs-sec" class="p-2">
+    <ng-container *ngIf="logMsgs && logMsgs.length > 0 else noLogs">
+        <div class="msgs" *ngFor="let msg of logMsgs| slice: -10">
+            {{msg}}
+        </div>
+    </ng-container>
+    <ng-template #noLogs>
+        <p class="msgs" >No logs available</p>
+    </ng-template>
+</div>

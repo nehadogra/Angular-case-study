@@ -1,0 +1,11 @@
+<div id="dynamic-main-section" class="container-fluid p-0">
+    <app-header></app-header>
+    <div class="d-flex justify-content-center m-4">
+        <section class="outer-container d-flex flex-wrap justify-content-center" (scroll)="onScroll($event)">
+            <div id="contentInside" *ngFor="let container of getContainers(); let i = index"
+                class="inner-container shadow d-flex justify-content-center align-items-center card dynamic-div">
+                <button id="alert-btn" class="btn btn-sm btn-primary" (click)="alert(i)">Click me!!!!</button>
+            </div>
+        </section>
+    </div>
+</div>

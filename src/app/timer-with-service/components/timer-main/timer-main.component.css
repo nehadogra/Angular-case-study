@@ -1,0 +1,13 @@
+.tile{
+    height: 225px;
+    width: 48%;
+    background-color: #ffffff;
+}
+
+.main{
+    background-color: #F5F5F5;
+}
+
+.container {
+    padding-top: 40px;
+}

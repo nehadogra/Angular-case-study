@@ -1,0 +1,23 @@
+<div id="timer-main" class="container-fluid p-0 main">
+    <app-header></app-header>
+    <div class="container w-75 m-auto">
+        <div class="row d-flex m-2 justify-content-between">
+            <div class="my-2 tile border border-light shadow rounded">
+                <app-counter [counterLimit]="counterLimit" [reset]="reset" [startCounter]="startCounter"
+                    (currentCount)="currentCount($event)"></app-counter>
+            </div>
+            <div class="my-2 tile border border-light shadow rounded">
+                <app-buttons (limit)="limit($event)" (action)="action($event)" (logger)="logger($event)"
+                    (btnClicked)="btnClicked($event)" [currentCounter]="currentCounter"></app-buttons>
+            </div>
+        </div>
+        <div class="row d-flex m-2 justify-content-between">
+            <div class="my-2 tile border border-light shadow rounded">
+                <app-logger [logMsgs]="logMsgs"></app-logger>
+            </div>
+            <div class="my-2 tile border border-light shadow rounded">
+                <app-timer [startClicked]="startClicked" [pauseClicked]="pauseClicked"></app-timer>
+            </div>
+        </div>
+    </div>
+</div>

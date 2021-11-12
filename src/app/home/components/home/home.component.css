@@ -1,0 +1,18 @@
+.tile{
+    border-radius: 10px;
+    height: 130px;
+    width:31%;
+    background: url(../../../../assets/data/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+.header {
+    padding: 5px;
+    background-color: #000000;
+    height:35px;
+}
+
+.tile-text{
+    color: #000000;
+    font-size: 18px;
+}
